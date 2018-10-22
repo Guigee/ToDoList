@@ -7,20 +7,17 @@
 </template>
 
 <script>
-var median
-
 export default {
   props: ['content', 'ind'],
   data: function () {
     return {
-      favo: median,
+      favo: false,
       favoo: []
     }
   },
   created () {
     /* eslint-disable */
-    median = store.has('favoo') ? store.get('favoo') : []
-    console.log(median)
+    var median = store.has('favoo') ? store.get('favoo') : []
   },
   methods: {
     remove () {

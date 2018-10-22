@@ -1,8 +1,8 @@
 <template>
   <div class="todolist">
     <div class="header-main">
-      <h1 class="title">ToDoList</h1>
-      <input v-model="inputvalue" class="header-branch1" @click="showAdd">
+      <h1 class="title">肖雯瑶的记事本</h1>
+      <input v-model="inputvalue" class="header-branch1" @click="showAdd" placeholder="eg：大哥今天要做的事">
       <span @click="addItem" class="header-branch2"></span>
     </div>
     <div class="content-list">
