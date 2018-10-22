@@ -15,7 +15,7 @@
 
 <script>
 import listItem from './components/listItem.vue'
-//更改
+
 export default {
   data: function () {
     return {
